@@ -8,7 +8,7 @@ El plan de acción se estructura ahora sobre cuatro pilares técnicos diseñados
 
 **Refinamiento de Matching y Consistencia**: Se profundizará en la alineación de las features para asegurar que las variables predictoras (como los metros cuadrados o ambientes) mantengan distribuciones coherentes tras la unión, resolviendo posibles sesgos geográficos entre las dos fuentes originales.
 
-**Arquitectura y Feature Store*: El objetivo es automatizar el flujo de pre-procesamiento actual para que la ingesta de nuevos datos sea reproducible. Se organizarán las variables en una estructura de entrenamiento optimizada, facilitando la experimentación rápida sin riesgo de pérdida de datos.
+**Arquitectura y Feature Store**: El objetivo es automatizar el flujo de pre-procesamiento actual para que la ingesta de nuevos datos sea reproducible. Se organizarán las variables en una estructura de entrenamiento optimizada, facilitando la experimentación rápida sin riesgo de pérdida de datos.
 
 **Modelado Predictivo Avanzado**: Iniciaremos la fase de entrenamiento evaluando algoritmos de ensamble (XGBoost, CatBoost o LightGBM), que son robustos ante la presencia de los nulos que decidimos conservar. Se aplicará Hyperparameter Tuning y validación cruzada para minimizar el error medio absoluto (MAE), buscando que la predicción del precio del alquiler sea sensible tanto a las características del inmueble como a la temporalidad del mercado.
 
